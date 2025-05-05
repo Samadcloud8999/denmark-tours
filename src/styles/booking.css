@@ -1,0 +1,98 @@
+.booking {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f4f7fa;
+  }
+  
+  .booking h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .booking form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form-row .form-group {
+    flex: 1;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+
+  
+  .booking button {
+    padding: 15px;
+    font-size: 18px;
+    background: #1b1c1d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .booking button:hover {
+    background: #43474a;
+  }
+  
+  .booking button .icon {
+    color: #bdb7b7; 
+  }
+  
+  @media (max-width: 768px) {
+    .booking h1 {
+      font-size: 28px;
+    }
+    .form-row {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .booking form {
+      padding: 15px;
+    }
+  }

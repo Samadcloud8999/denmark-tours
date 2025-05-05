@@ -1,0 +1,47 @@
+.why-us {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #b6b2af, #141413);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    
+  }
+  
+  .why-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 3em;
+
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 4em;
+  }
+  
+  .feature {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .why-us h2 {
+      font-size: 28px;
+    }
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }

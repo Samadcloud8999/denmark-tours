@@ -1,0 +1,46 @@
+.calendar {
+    padding: 60px 20px;
+    text-align: center;
+ 
+  }
+  
+  .calendar h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    margin-top: 3em;
+  }
+  
+  .dates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .date {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .date h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .calendar h2 {
+      font-size: 28px;
+    }
+    .dates-grid {
+      grid-template-columns: 1fr;
+    }
+  }

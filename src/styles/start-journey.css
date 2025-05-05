@@ -1,0 +1,60 @@
+.start-journey {
+    background: url('src/assets/images/denmark-bg2.jpg') no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .start-journey::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  .start-journey .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .start-journey h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .start-journey .button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .start-journey .button:hover {
+    background: #2980b9;
+  }
+  
+  @media (max-width: 768px) {
+    .start-journey h2 {
+      font-size: 28px;
+    }
+    .start-journey .button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
