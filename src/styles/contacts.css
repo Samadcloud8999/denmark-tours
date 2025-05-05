@@ -1,0 +1,24 @@
+.contacts {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contacts h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .map {
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .contacts h1 {
+      font-size: 28px;
+    }
+    .map iframe {
+      height: 300px;
+    }
+  }

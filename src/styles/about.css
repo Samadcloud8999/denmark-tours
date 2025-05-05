@@ -1,0 +1,45 @@
+.about {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #7f8c8d;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .about h1 {
+      font-size: 28px;
+    }
+    .about p {
+      font-size: 16px;
+    }
+    .gallery img {
+      height: 150px;
+    }
+  }

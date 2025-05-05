@@ -1,0 +1,35 @@
+.tours,
+.reviews {
+  padding: 60px 20px;
+  text-align: center;
+
+}
+
+.tours h2,
+.reviews h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.reviews h2 {
+  margin-top: 2em;
+}
+
+.tours-grid,
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .tours h2,
+  .reviews h2 {
+    font-size: 28px;
+  }
+  .tours-grid,
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+}
