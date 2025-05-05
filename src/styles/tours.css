@@ -1,0 +1,26 @@
+.tours-page {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .tours-page h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .tours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .tours-page h1 {
+      font-size: 28px;
+    }
+    .tours-grid {
+      grid-template-columns: 1fr;
+    }
+  }

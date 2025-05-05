@@ -1,0 +1,68 @@
+.tour-details {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .tour-details h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .tour-details img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tour-details .price {
+    font-size: 24px;
+    color: #121313;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .tour-details .description {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #7f8c8d;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .tour-details button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #0b0b0b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .tour-details button:hover {
+    background: #474646;
+  }
+  
+  @media (max-width: 768px) {
+    .tour-details h1 {
+      font-size: 28px;
+    }
+    .tour-details img {
+      height: 250px;
+    }
+    .tour-details .price {
+      font-size: 20px;
+    }
+    .tour-details .description {
+      font-size: 16px;
+    }
+  }
+
+  
